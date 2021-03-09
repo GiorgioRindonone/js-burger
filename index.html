@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/0ae8af7e4e.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+    <title></title>
+  </head>
+  <body>
+    <div class="page-container">
+      <header>
+        <h1>Create your burger</h1>
+      </header>
+      <main>
+        <div class="burger-name">
+          <input id="burger-name-input" type="Name your burger" name="" value="" placeholder="Name your burger">
+        </div>
+        <div class="ingredients">
+          <h2>Ingredients</h2>
+          <ul class="ingredient-list">
+            <li>
+              <label for="cheese"> cheese
+                <input id="cheese" type="checkbox" value="4"> add
+              </label>
+            </li>
+
+            <li>
+              <label for="egg"> egg
+                <input id="egg" class="add-ingredient"type="checkbox" value="6"> add
+              </label>
+            </li>
+
+            <li>
+              <label for="mustard"> mustard
+                <input id="mustard" class="add-ingredient"type="checkbox" value="2"> add
+              </label>
+            </li>
+
+            <li>
+              <label for="tomato"> tomato
+                <input id="tomato" class="add-ingredient"type="checkbox" value="3"> add
+              </label>
+            </li>
+
+            <li>
+              <label for="lettuce"> lettuce
+                <input id="lettuce" class="add-ingredient"type="checkbox" value="4"> add
+              </label>
+            </li>
+
+            <li>
+              <label for="ketchup"> ketchup
+                <input id="ketchup" class="add-ingredient"type="checkbox" value="2"> add
+              </label>
+            </li>
+
+          </ul>
+          <div class="discount">
+            <label for="coupon-input"> discount</label>
+            <input id="coupon-input" type="text" placeholder="coupon">
+          </div>
+          <div class="button-calculate">
+            <button id="calculate"type="button" name="button">calculate</button>
+          </div>
+        </div>
+      </main>
+      <footer>
+        <div class="">
+          Your price
+        </div>
+        <div id="total">
+          50$
+        </div>
+
+      </footer>
+
+    </div>
+  <script src="script.js"charset="utf-8"></script>
+  </body>
+</html>

@@ -1,0 +1,21 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+
+
+body {
+  background-color: lightgrey;
+}
+
+.page-container {
+  max-width: 800px;
+
+}
+/* header */
+.header {
+  background-color: orange;
+  padding: 60px 40px 30px 40px;
+}
